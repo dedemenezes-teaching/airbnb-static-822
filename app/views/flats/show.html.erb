@@ -1,0 +1,7 @@
+<h1><%= @flat["name"] %></h1>
+<h2>Price: <%= @flat["price"] %> <%= @flat['priceCurrency'] %></h2>
+
+<%= image_tag @flat["imageUrl"], alt: @flat["name"], width: '200px' %>
+
+
+<%= link_to "Back to Flats", root_path %>
